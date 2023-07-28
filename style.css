@@ -23,6 +23,8 @@ font-family: var(--fonte-principal);
     background-image: url(Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align:center;
 }
   
 .container{
@@ -37,7 +39,8 @@ font-family: var(--fonte-principal);
     padding: 1em ; 
     color: var(--branco-principal);
     display: block;
-}
+    text-decoration: none
+    margim-botom;}
 
 .botao__secundario{
     background-color: transparent;
@@ -53,6 +56,19 @@ font-family: var(--fonte-principal);
 
 .container_titulo{
 
-font-weight: ;
+font-size: 20px;
+font-weight:700;
 }
-  
+
+
+.container__imagem{
+    margin: 1em 0 2em;
+
+}
+    
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+
