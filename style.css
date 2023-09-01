@@ -39,8 +39,8 @@ font-family: var(--fonte-principal);
     padding: 1em ; 
     color: var(--branco-principal);
     display: block;
-    text-decoration: none
-    margim-botom;}
+    text-decoration: none;
+    margim-botom:1em;}
 
 .botao__secundario{
     background-color: transparent;
@@ -70,5 +70,31 @@ font-weight:700;
 .container__caixa{
     margin: 0 6em;
 }
+
+.secundario__imagem{
+    width: 30;
+}
+
+.container__secundario{
+     align-items: center;
+     margin: 0 10em;
+
+     
+
+     
+
+    }
+    .descricao__titulo{
+        color: var(--cinza-secundario);
+    }
+
+
+
+
+
+  
+
+
+
 
 
