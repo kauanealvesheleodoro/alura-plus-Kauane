@@ -56,45 +56,43 @@ font-family: var(--fonte-principal);
 
 .container_titulo{
 
-font-size: 20px;
+font-size: 28px;
 font-weight:700;
 }
 
-
 .container__imagem{
-    margin: 1em 0 2em;
-
+    margin: 1em 0 2em 0;
 }
     
-
 .container__caixa{
     margin: 0 6em;
 }
 
 .secundario__imagem{
-    width: 30;
+    width: 80%;
 }
 
-.container__secundario{
+.secundario{
      align-items: center;
      margin: 0 10em;
-
-     
-
-     
-
     }
+
     .descricao__titulo{
+        font-size: 48%;
+        font-weight: 700;
         color: var(--cinza-secundario);
+        margin-bottom: 0, 1em;
     }
 
+.descricao__texto{ 
+    color: var(--cinza-secundario);
+}
 
+.secundario__botao{
+ display: inline-block;
+margin-top: 1em;
+}
 
-
-
-  
-
-
-
-
-
+.container__descricao{
+    padding: 2em;
+}
